@@ -33,7 +33,6 @@ uses
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  // SHLibrary.items;
   if FSession = nil then
   begin
     FSession := TSHManagedSessionOC.Create;
