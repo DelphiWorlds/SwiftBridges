@@ -39,6 +39,10 @@ Most framework binaries/headers will be available in the `Frameworks` folder, ho
 3. The resulting `.framework` bundle is ready for use under the folder `~/Library/Developer/Xcode/DerivedData/(FrameworkProjectName)-xxxxxxx` where `(FrameworkProjectName)` is the name of the bridging project (e.g ShazamKitObjC) and `xxxxxxxx` is a unique identifier created by Xcode. Under *that* folder will be `/Build/Products/Debug-iphoneos` where the `.framework` folder is located 
 4. Copy the `.framework` folder mentioned in step 3 to a suitable location on your Windows machine for the Delphi compiler to find it using the `Framework search path` value in the Project Options of your Delphi project.
 
+### Creating a Delphi import
+
+If there is no [existing Delphi import](https://github.com/DelphiWorlds/SwiftBridges/tree/main/Imports) for a bridged framework, please see [these instructions in the Octoid repo](https://github.com/Embarcadero/octoid/blob/main/ReadMe.md), paying particular attention to [importing a third party framework](https://github.com/Embarcadero/octoid/blob/main/ReadMe.md#transforming-3rd-party-frameworks).
+
 ### Using in a Delphi Project
 
 See the demo projects in the `Demos` folder for examples, including project configuration requirements.
