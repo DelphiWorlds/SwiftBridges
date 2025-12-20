@@ -59,6 +59,15 @@ The following frameworks need to be added to the iOS SDK you are building agains
 
 The following are required if using the framework in your own project, in the Project Options:
 
+#### Search path
+
+This value will need to include any imports relevant to the framework, and dependencies of that import. The demo requires
+
+- iOSapi.ShazamKitObjC.pas
+- iOSapi.SwiftCompat.pas
+
+Which are in the `Imports` folder of the repo.
+
 #### Framework search path (Building > Delphi Compiler)
 
 Set this value to a path where the `ShazamKitObjC.framework` folder is located. In the repo, this is in the `Frameworks` folder
