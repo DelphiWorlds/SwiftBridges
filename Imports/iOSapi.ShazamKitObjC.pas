@@ -118,7 +118,6 @@ type
 implementation
 
 uses
-//  Posix.Dlfcn,
   iOSapi.SwiftCompat;
 
 const
@@ -137,11 +136,5 @@ procedure libswiftsimdLoader; cdecl; external '/usr/lib/swift/libswiftsimd.dylib
 procedure MusicKitLoader; cdecl; external libMusicKit;
 procedure ShazamKitLoader; cdecl; external libShazamKit;
 procedure ShazamKitObjCLoader; cdecl; external framework 'ShazamKitObjC';
-
-//initialization
-//  ShazamKitModule := dlopen(MarshaledAString(libShazamKit), RTLD_LAZY);
-//
-//finalization
-//  dlclose(ShazamKitModule);
 
 end.
