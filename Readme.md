@@ -21,7 +21,7 @@ The goal is to make the latest Apple platform features accessible to the Delphi 
 |-----------|-------------|
 | ShazamKitObjC | iOS 17.0 |
 
-More bridges will be added over time (suggestions welcome!).
+**Please see [this issue](https://github.com/DelphiWorlds/SwiftBridges/issues/1) regarding bridges that are in progress, or planned.**
 
 ## Getting Started
 
