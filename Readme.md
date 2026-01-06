@@ -17,9 +17,10 @@ The goal is to make the latest Apple platform features accessible to the Delphi 
 
 ## Current Bridges
 
-| Framework | Minimum iOS |
-|-----------|-------------|
-| ShazamKitObjC | iOS 17.0 |
+| Framework | iOS SDK | Demo |
+|-----------|---------|------|
+| DeclaredAgeRangeObjC | iOS 26.0 | ✅ |
+| ShazamKitObjC | iOS 17.0 | ✅ |
 
 **Please see [this issue](https://github.com/DelphiWorlds/SwiftBridges/issues/1) regarding bridges that are in progress, or planned.**
 
