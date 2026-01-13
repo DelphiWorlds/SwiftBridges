@@ -43,7 +43,7 @@ Please note that these instructions are built around the [conventions expected](
     
     <img src="Screenshots/XcodeBuildSettingsiOSDeploymentValue.png" height="300">
 
-    This value can be found in the documentation on the Apple Developer documentation website:
+    This value can be found in the documentation on the Apple Developer documentation website.
 14. In the `Filter` box, type `Skip Install`
 15. Change the setting value to `No`:
     
@@ -109,7 +109,9 @@ For the `.m` files, in Xcode:
 
 As above, generally AI will never get this right the first time. You may notice as you are adding files and/or updating code that Xcode will highlight errors/warnings straight away, i.e. before you even build the framework.
 
-Errors/Warnings are listed in the project navigator as pictured:
+Errors/Warnings are listed in the project navigator as pictured (this is a contrived example just to show how/where they're presented):
+
+<img src="Screenshots/XcodeIssues.png" height="250">
 
 Use the mouse and/or keyboard to select the errors/warnings and Command+C to copy them to the clipboard. These can be then pasted into your AI to inform it of its mistakes. 
 
