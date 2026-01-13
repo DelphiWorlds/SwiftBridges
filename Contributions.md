@@ -8,7 +8,7 @@ The following conventions must be used when creating a bridging framework:
 - The bridging Swift file must be named using the existing Swift-only framework name, suffixed with `Bridge`, e.g. `ShazamKitBridge.swift`
 - Objective-C wrapper types must be named the same as in the existing Swift-only framework, suffixed with `OC`, e.g. `SHManagedSessionOC`
 
-These conventions are in place to ensure consistency in the bridging frameworks, and to reflect exactly what they represent, e.g. The wrapper class named `SHManagedSessionOC` is an Objective-C equivalent of the `SHManagedSession` class in the existing Swift-only framework, and `SHManagedSessionSwift` (from `ShazamKitBridge.swift`) is a "conduit" into `SHManagedSession`
+These conventions are in place to ensure consistency in the bridging frameworks, and to reflect exactly what they represent, e.g. The wrapper class named `SHManagedSessionOC` is an Objective-C equivalent of the `SHManagedSession` class in the existing Swift-only framework, and `SHManagedSessionSwift` (from `ShazamKitBridge.swift`) is a "conduit" into `SHManagedSession`. The `Swift` suffix was needed here only to resolve name collisions - the suffix can be omitted when no such collisions occur
 
 ## Imports
 
