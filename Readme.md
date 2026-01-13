@@ -54,10 +54,14 @@ Contributions are very welcome! Ideas for new bridges, bug fixes, improved wrapp
 
 Please open an issue first to discuss any major additions, and see the [contributions readme](https://github.com/DelphiWorlds/SwiftBridges/blob/main/Contributions.md) for conventions used in bridging projects in this repo, and other information
 
+## Building Bridges
+
+If you wish to contribute, or are just interested in the process, see "Building Bridges" in the [documentation](./Docs/BuildingBridges/ReadMe.md)
+
 ## Acknowledgements
 
 - Huge **THANK YOU** to Chris Pimlott, whose [WidgetKit tutorial](https://github.com/MyBuzzTechnologies/WidgetKitObjCDelphi) inspired this work.
-- Thanks to [Grok](https://www.grok.com), who worked tirelessly to help generate the Objective-C files for the [ShazamKitObjC Xcode project](https://github.com/DelphiWorlds/SwiftBridges/tree/main/Bridges/ShazamKitObjC) and gave valuable hints for configuring the project.
+- Thanks to [Grok](https://www.grok.com), who worked tirelessly to help generate the Swift/Objective-C files and gave valuable hints for configuring Xcode projects.
 
 ## License
 
