@@ -158,4 +158,10 @@ All being well, the framework should build successfully. The output will be in:
 
 If the build does not succeed, go back to [this section](#resolving-ais-or-your-mistakes).
 
-Once the framework has been successfully built, an import for Delphi can be created.
+## Creating an import for Delphi
+
+Once the framework has been successfully built, an import for Delphi can be created. 
+
+A convenient way to do this is using [Octoid](https://github.com/Embarcadero/octoid). Please ensure that you read the section on [Transforming 3rd party frameworks](https://github.com/Embarcadero/octoid?tab=readme-ov-file#transforming-3rd-party-frameworks)
+
+Otherwise, you might choose to do it by hand (ouch! again)
